@@ -1,0 +1,107 @@
+html{
+    background-image: url("../RegistrationPage/assets/Anti\ Gravity\ canyon.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height:100%;
+    position: relative;
+}
+
+* {box-sizing: border-box;}
+
+.wrapper{
+    
+}
+
+hr{
+    border: solid 1px black;
+}
+
+.title{
+    text-align: center;
+    text-decoration: underline;
+    color:white
+}
+
+.textbox{
+    opacity: 65%;
+    left: 42%;
+    position: absolute;
+    border: solid 3px blue;
+    background-color: #2A3439;
+    display: block;
+    padding: 20px;
+}
+
+input[type=password]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    background:lightgray;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* .UsernameGroup{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+} */
+
+input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    background:lightgray;
+}
+
+input[type=email]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    background:lightgray;
+}
+
+.button{
+    background-color: white;
+    color: black;
+    padding: 12px;
+    border:none;
+    width:100%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block; 
+}
+
+.button:hover{
+    opacity: 0.8;
+}
+
+.but{
+    padding: 5px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius:50%;
+}
+
+.but:hover{
+    opacity:0.7;
+}
+
+.Dropbox{
+    color:black;
+}
